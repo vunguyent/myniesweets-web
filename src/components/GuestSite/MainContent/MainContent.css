@@ -1,0 +1,58 @@
+.ms-button {
+  @apply text-center py-3 px-8 text-sm tracking-wider font-bold cursor-pointer;
+}
+
+.ms-icon {
+  @apply w-5 h-5 inline-block;
+}
+
+.ms-badge-circle {
+  @apply text-xs text-center rounded-full px-1.5;
+}
+
+.ms-subheadline {
+  @apply flex justify-center items-center mt-20 mb-4 font-medium text-mn-blue;
+}
+
+.ms-subheadline-deco-line {
+  @apply w-10 h-0.5 bg-mn-blue font-bold;
+}
+
+.ms-subheadline-label {
+  @apply uppercase mx-4 tracking-wider text-lg md:text-2xl leading-8 mb-4 text-center font-bold;
+}
+
+/* .ms-button {
+  @apply text-center uppercase tracking-wider py-3 px-8 text-sm font-bold;
+} */
+
+.abs-subheadline {
+  @apply flex justify-center items-center mt-16 mb-4 font-medium text-messenger-blue;
+}
+
+.abs-subheadline-deco-line {
+  @apply w-10 h-0.5 bg-messenger-blue font-bold;
+}
+
+.abs-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-lg md:text-2xl leading-10 mb-4 text-center font-bold;
+}
+/* 
+.card-zoom {
+  @apply relative flex items-center justify-center overflow-hidden shadow-xl h-[350px] rounded-[32px];
+}
+
+.card-zoom-image {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.card-zoom-text {
+  @apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-80;
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-125;
+}
+.card-zoom:hover .card-zoom-text {
+  @apply scale-100;
+} */
